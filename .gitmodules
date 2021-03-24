@@ -1,0 +1,3 @@
+[submodule "stage2/04-install-flutter/flutter-pi-img-gen"]
+	path = stage2/04-install-flutter/flutter-pi-img-gen
+	url = https://github.com/nut24101/flutter-pi-img-gen.git
