@@ -1,3 +1,4 @@
+sudo ./flutter-pi-img-gen/flutter-install.sh
 #cmake -B /home/pi/flutter-pi/build -S /home/pi/flutter-pi
 #make -j `nproc` -C /home/pi/flutter-pi/build
 #make install -C /home/pi/flutter-pi/build
