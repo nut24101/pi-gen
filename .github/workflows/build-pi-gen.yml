@@ -27,7 +27,7 @@ jobs:
       - name: Run a one-line script
         run: ./build-docker.sh
       - uses: actions/upload-artifact@v2
-          with:
+        with:
           name: Image
           path: ./deploy
       
