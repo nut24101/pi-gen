@@ -26,3 +26,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: ./build-docker.sh
+      - uses: actions/upload-artifact@v2
+          with:
+          name: Image
+          path: ./deploy
+      
