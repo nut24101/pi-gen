@@ -12,6 +12,8 @@ make install -C /home/pi/flutter-pi-img-gen/flutter-pi/build
 cd /media && mkdir usb
 cd /home/admin && mkdir flutter-apps && cd flutter-apps && mkdir soilcrete
 
+chmod a+w /home/admin/flutter-apps /home/admin/flutter-apps/soilcrete 
+
 printf "\n[pi4]\ndtoverlay=vc4-fkms-v3d\nmax_framebuffers=2\n\n[all]\ndtoverlay=vc4-fkms-v3d\n" | tee -a /boot/config.txt
 
 echo "cd /home/admin/flutter-apps/soilcrete && flutter-pi flutter_assets" | tee -a /home/admin/.bashrc
